@@ -46,5 +46,3 @@ def add_time(start, duration, week_day=''):
         new_time = f'{calculate_hours}:{receive_minutes:02} {period}{day_string} ({round(days_passed)} days later)'
 
     return new_time
-
-print(add_time('2:59 AM', '24:00'))
